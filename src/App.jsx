@@ -5,7 +5,6 @@ import './index.css';
 import './App.css'
 
 function App() {
-
   return (
     <div className="absolute inset-0 m-0 p-0">
       {/* Header */}
@@ -39,13 +38,13 @@ function App() {
               </div>
             </div>
             <div className="p-6 space-y-4">
-              <div className="flex justify-between items-center border-b border-gray-100 pb-2">
-                <span className="font-medium">Monday - Saturday</span>
-                <span className="text-blue-600">10:00 AM - 7:00 PM</span>
+              <div className="grid grid-cols-2 items-center border-b border-gray-100 pb-2">
+                <span className="font-medium text-gray-900">Monday - Saturday</span>
+                <span className="text-blue-600 text-right">10:00 AM - 7:00 PM</span>
               </div>
-              <div className="flex justify-between items-center">
-                <span className="font-medium">Sunday</span>
-                <span className="text-blue-600">CLOSED</span>
+              <div className="grid grid-cols-2 items-center">
+                <span className="font-medium text-gray-900">Sunday</span>
+                <span className="text-blue-600 text-right">CLOSED</span>
               </div>
             </div>
           </div>
@@ -59,24 +58,30 @@ function App() {
               </div>
             </div>
             <div className="p-6 space-y-6">
-              <div>
-                <h3 className="font-medium mb-2">Address</h3>
-                <p className="text-gray-600">1489 County Road 220, Ste 140</p>
-                <p className="text-gray-600">Fleming Island, FL 32003</p>
+              <div className="text-center">
+                <h3 className="font-medium text-gray-900 mb-2">Address</h3>
+                <p className="text-gray-900">1489 County Road 220, Ste 140</p>
+                <p className="text-gray-900">Fleming Island, FL 32003</p>
               </div>
               
-              <div>
-                <h3 className="font-medium mb-2">Phone</h3>
-                <p className="text-blue-600 hover:text-blue-700 cursor-pointer">
+              <div className="text-center">
+                <h3 className="font-medium text-gray-900 mb-2">Phone</h3>
+                <a 
+                  href="tel:9046448098" 
+                  className="text-blue-600 hover:text-blue-700"
+                >
                   (904) 644-8098
-                </p>
+                </a>
               </div>
 
-              <div>
-                <h3 className="font-medium mb-2">Email</h3>
-                <p className="text-blue-600 hover:text-blue-700 cursor-pointer">
+              <div className="text-center">
+                <h3 className="font-medium text-gray-900 mb-2">Email</h3>
+                <a 
+                  href="mailto:info@wadesworldsmokeshop.com" 
+                  className="text-blue-600 hover:text-blue-700"
+                >
                   info@wadesworldsmokeshop.com
-                </p>
+                </a>
               </div>
             </div>
           </div>
