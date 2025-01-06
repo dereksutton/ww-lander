@@ -1,6 +1,6 @@
 import React from 'react';
 import { Clock, MapPin, Phone, Mail } from 'lucide-react';
-import logo from './assets/Wades_World_final.png';
+import logo from './assets/WW-Web-Logo.png';
 import './index.css';
 import './App.css'
 
@@ -15,11 +15,11 @@ function App() {
 
       {/* Hero Section */}
       <div className="w-screen bg-gradient-to-b from-white to-gray-50">
-        <div className="py-12">
+        <div className="py-10">
           <img 
             src={logo}
             alt="Wade's World Logo" 
-            className="mx-auto h-72 w-auto mb-8"
+            className="mx-auto h-80 w-auto mb-8"
           />
           <p className="text-gray-700 text-3xl text-center font-medium px-4">
             Your Premier Destination for Quality Smoking Accessories
