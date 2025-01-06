@@ -19,7 +19,7 @@ function App() {
           <img 
             src={logo}
             alt="Wade's World Logo" 
-            className="mx-auto h-80 w-auto mb-8"
+            className="mx-auto h-60 w-auto mb-8"
           />
           <p className="text-gray-700 text-3xl text-center font-medium px-4">
             Your Premier Destination for Quality Smoking Accessories
