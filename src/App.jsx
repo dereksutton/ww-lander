@@ -39,8 +39,12 @@ function App() {
             </div>
             <div className="p-6 space-y-4">
               <div className="grid grid-cols-2 items-center border-b border-gray-100 pb-2">
-                <span className="font-medium text-gray-900">Monday - Saturday</span>
+                <span className="font-medium text-gray-900">Monday - Friday</span>
                 <span className="text-blue-600 text-right">11:00 AM - 7:00 PM</span>
+              </div>
+              <div className="grid grid-cols-2 items-center">
+                <span className="font-medium text-gray-900">Saturday</span>
+                <span className="text-blue-600 text-right">11:00 AM - 5:00 PM</span>
               </div>
               <div className="grid grid-cols-2 items-center">
                 <span className="font-medium text-gray-900">Sunday</span>
