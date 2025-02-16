@@ -71,10 +71,10 @@ function App() {
               <div className="text-center">
                 <h3 className="font-medium text-gray-900 mb-2">Phone</h3>
                 <a 
-                  href="tel:9046448098" 
+                  href="tel:9044451261" 
                   className="text-blue-600 hover:text-blue-700"
                 >
-                  (904) 644-8098
+                  (904) 445-1261
                 </a>
               </div>
 
