@@ -44,7 +44,7 @@ function App() {
               </div>
               <div className="grid grid-cols-2 items-center border-b border-gray-100 pb-2">
                 <span className="font-medium text-gray-900">Saturday</span>
-                <span className="text-blue-600 text-right">12:00 PM - 5:00 PM</span>
+                <span className="text-blue-600 text-right">CLOSED</span>
               </div>
               <div className="grid grid-cols-2 items-center">
                 <span className="font-medium text-gray-900">Sunday</span>
