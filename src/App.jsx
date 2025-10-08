@@ -1,5 +1,5 @@
 import React from 'react';
-import { Clock, MapPin, Phone, Mail } from 'lucide-react';
+import { Phone, Mail } from 'lucide-react';
 import logo from './assets/WW-Web-Logo.png';
 import './index.css';
 import './App.css'
@@ -7,85 +7,95 @@ import './App.css'
 function App() {
   return (
     <div className="absolute inset-0 m-0 p-0">
-      {/* Header */}
-      <div className="w-screen bg-gray-800 shadow-lg">
-        <h1 className="text-4xl font-bold py-6 text-center text-white">Come See Us!</h1>
-      </div>
-
-      {/* Hero Section */}
-      <div className="w-screen bg-gradient-to-b from-white to-gray-50">
-        <div className="py-10">
-          <img 
-            src={logo}
-            alt="Wade's World Logo" 
-            className="mx-auto h-60 w-auto mb-8"
-          />
-          <p className="text-gray-700 text-3xl text-center font-medium px-4">
-            Your Premier Destination for Quality Smoking Accessories
-          </p>
+      {/* American-Made Glass Banner */}
+      <div className="w-screen bg-gradient-to-r from-blue-800 via-white to-red-700 py-2">
+        <div className="w-screen bg-gradient-to-r from-blue-900/90 via-gray-900/80 to-red-900/90 py-16">
+          <div className="max-w-6xl mx-auto text-center px-4">
+            <div className="flex items-center justify-center mb-6">
+              <svg className="w-14 h-9 mr-4" viewBox="0 0 60 40" fill="none">
+                <rect width="60" height="40" fill="#B22234"/>
+                <rect y="3" width="60" height="3" fill="white"/>
+                <rect y="9" width="60" height="3" fill="white"/>
+                <rect y="15" width="60" height="3" fill="white"/>
+                <rect y="21" width="60" height="3" fill="white"/>
+                <rect y="27" width="60" height="3" fill="white"/>
+                <rect y="33" width="60" height="3" fill="white"/>
+                <rect width="24" height="21" fill="#3C3B6E"/>
+                <g fill="white">
+                  <circle cx="4" cy="3" r="1"/>
+                  <circle cx="12" cy="3" r="1"/>
+                  <circle cx="20" cy="3" r="1"/>
+                  <circle cx="8" cy="6" r="1"/>
+                  <circle cx="16" cy="6" r="1"/>
+                  <circle cx="4" cy="9" r="1"/>
+                  <circle cx="12" cy="9" r="1"/>
+                  <circle cx="20" cy="9" r="1"/>
+                  <circle cx="8" cy="12" r="1"/>
+                  <circle cx="16" cy="12" r="1"/>
+                  <circle cx="4" cy="15" r="1"/>
+                  <circle cx="12" cy="15" r="1"/>
+                  <circle cx="20" cy="15" r="1"/>
+                  <circle cx="8" cy="18" r="1"/>
+                  <circle cx="16" cy="18" r="1"/>
+                </g>
+              </svg>
+              <h1 className="text-4xl md:text-5xl font-bold text-white tracking-wide">
+                AMERICAN-MADE GLASS
+              </h1>
+            </div>
+            <p className="text-xl text-gray-200 font-medium">
+              Premium Quality • Crafted in the USA • Supporting American Artisans
+            </p>
+          </div>
         </div>
       </div>
 
-      {/* Info Sections */}
-      <div className="w-screen bg-gray-100 px-4 py-8 md:py-12">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6">
-          {/* Hours */}
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="bg-gray-800 text-white p-4">
-              <div className="flex items-center">
-                <Clock className="w-6 h-6 mr-3" />
-                <h2 className="text-2xl font-bold">Store Hours</h2>
-              </div>
-            </div>
-            <div className="p-6 space-y-4">
-              <div className="grid grid-cols-2 items-center border-b border-gray-100 pb-2">
-                <span className="font-medium text-gray-900">Monday - Friday</span>
-                <span className="text-blue-600 text-right">12:00 PM - 7:00 PM</span>
-              </div>
-              <div className="grid grid-cols-2 items-center border-b border-gray-100 pb-2">
-                <span className="font-medium text-gray-900">Saturday</span>
-                <span className="text-blue-600 text-right">CLOSED</span>
-              </div>
-              <div className="grid grid-cols-2 items-center">
-                <span className="font-medium text-gray-900">Sunday</span>
-                <span className="text-blue-600 text-right">CLOSED</span>
-              </div>
-            </div>
+      {/* Coming Soon Banner */}
+      <div className="w-screen bg-gray-100 pt-16 pb-8">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="bg-gray-800 rounded-xl shadow-lg p-12 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+              🛒 eCommerce Store Coming Soon!
+            </h2>
+            <p className="text-xl text-gray-300 font-medium">
+              Get ready to shop our premium American-made glass collection online
+            </p>
           </div>
+        </div>
+      </div>
 
-          {/* Contact Info */}
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="bg-gray-800 text-white p-4">
-              <div className="flex items-center">
-                <MapPin className="w-6 h-6 mr-3" />
-                <h2 className="text-2xl font-bold">Contact & Location</h2>
+      {/* Contact Section */}
+      <div className="w-screen bg-gray-100 px-4 pt-8 pb-16">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+            <div className="bg-gray-800 text-white p-8">
+              <div className="flex items-center justify-center">
+                <Phone className="w-8 h-8 mr-4" />
+                <h3 className="text-4xl font-bold">Contact</h3>
               </div>
             </div>
-            <div className="p-6 space-y-6">
-              <div className="text-center">
-                <h3 className="font-medium text-gray-900 mb-2">Address</h3>
-                <p className="text-gray-900">1489 County Road 220, Ste 140</p>
-                <p className="text-gray-900">Fleming Island, FL 32003</p>
-              </div>
-              
-              <div className="text-center">
-                <h3 className="font-medium text-gray-900 mb-2">Phone</h3>
-                <a 
-                  href="tel:+19044451261" 
-                  className="text-blue-600 hover:text-blue-700"
-                >
-                  (904) 445-1261
-                </a>
-              </div>
-
-              <div className="text-center">
-                <h3 className="font-medium text-gray-900 mb-2">Email</h3>
-                <a 
-                  href="mailto:info@wadesworldsmokeshop.com" 
-                  className="text-blue-600 hover:text-blue-700"
-                >
-                  info@wadesworldsmokeshop.com
-                </a>
+            <div className="p-8">
+              <div className="flex flex-col lg:flex-row lg:items-center gap-8">
+                <div className="flex-shrink-0 text-center lg:text-left">
+                  <img 
+                    src={logo}
+                    alt="Wade's World Logo" 
+                    className="h-56 w-auto mx-auto lg:mx-0"
+                  />
+                </div>
+                <div className="flex-1 space-y-6 min-w-0">
+                  <div className="text-center">
+                  </div>
+                  <div className="text-center">
+                    <h4 className="font-bold text-gray-600 mb-2 text-xl uppercase tracking-wide">Email</h4>
+                    <a 
+                      href="mailto:info@wadesworldsmokeshop.com" 
+                      className="text-2xl font-bold text-blue-600 hover:text-blue-700 mb-3 transition-colors block break-words"
+                    >
+                      info@wadesworldsmokeshop.com
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -93,7 +103,7 @@ function App() {
       </div>
 
       {/* Footer */}
-      <div className="w-screen bg-gray-800 text-white py-6">
+      <div className="w-screen bg-gray-800 text-white py-8">
         <p className="text-center text-gray-300">© 2025 Wade's World Smoke Shop. All rights reserved.</p>
       </div>
     </div>
