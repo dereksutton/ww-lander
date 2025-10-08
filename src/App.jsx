@@ -87,7 +87,7 @@ function App() {
                   <h4 className="font-bold text-gray-600 mb-3 text-lg md:text-xl uppercase tracking-wide">Email</h4>
                   <a 
                     href="mailto:info@wadesworldsmokeshop.com" 
-                    className="text-sm md:text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors block"
+                    className="text-base md:text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors block"
                   >
                     info@wadesworldsmokeshop.com
                   </a>
