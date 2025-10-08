@@ -83,11 +83,11 @@ function App() {
                     className="h-40 md:h-56 w-auto mx-auto"
                   />
                 </div>
-                <div className="text-center px-4">
+                <div className="text-center px-2">
                   <h4 className="font-bold text-gray-600 mb-3 text-lg md:text-xl uppercase tracking-wide">Email</h4>
                   <a 
                     href="mailto:info@wadesworldsmokeshop.com" 
-                    className="text-lg md:text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors block break-all"
+                    className="text-sm md:text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors block"
                   >
                     info@wadesworldsmokeshop.com
                   </a>
