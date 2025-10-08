@@ -74,27 +74,23 @@ function App() {
                 <h3 className="text-4xl font-bold">Contact</h3>
               </div>
             </div>
-            <div className="p-8">
-              <div className="flex flex-col lg:flex-row lg:items-center gap-8">
-                <div className="flex-shrink-0 text-center lg:text-left">
+            <div className="p-6 md:p-8">
+              <div className="flex flex-col gap-8">
+                <div className="text-center">
                   <img 
                     src={logo}
                     alt="Wade's World Logo" 
-                    className="h-56 w-auto mx-auto lg:mx-0"
+                    className="h-40 md:h-56 w-auto mx-auto"
                   />
                 </div>
-                <div className="flex-1 space-y-6 min-w-0">
-                  <div className="text-center">
-                  </div>
-                  <div className="text-center">
-                    <h4 className="font-bold text-gray-600 mb-2 text-xl uppercase tracking-wide">Email</h4>
-                    <a 
-                      href="mailto:info@wadesworldsmokeshop.com" 
-                      className="text-2xl font-bold text-blue-600 hover:text-blue-700 mb-3 transition-colors block break-words"
-                    >
-                      info@wadesworldsmokeshop.com
-                    </a>
-                  </div>
+                <div className="text-center px-4">
+                  <h4 className="font-bold text-gray-600 mb-3 text-lg md:text-xl uppercase tracking-wide">Email</h4>
+                  <a 
+                    href="mailto:info@wadesworldsmokeshop.com" 
+                    className="text-lg md:text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors block break-all"
+                  >
+                    info@wadesworldsmokeshop.com
+                  </a>
                 </div>
               </div>
             </div>
